@@ -4,11 +4,11 @@
 mkdir FASTAPI AND cd FASTAPI 
 
 ## 2. Install the virtual environment 
-pip install virtualenv
+pip install env
 
 ## 3. Create the virtual environment 
-python3 -m venv virtualenv
-### virtualenv is the name of virtual env
+python3 -m venv env
+### env is the name of the virtual env
 ### OR 
 virtualenv name_of_environment 
 
@@ -45,3 +45,6 @@ uvicorn main:app --reload
 http://127.0.0.1:8000/docs 
 /docs
 
+
+
+# Using Jinja as templating language
