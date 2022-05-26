@@ -6,3 +6,4 @@ app = FastAPI()
 @app.get("/")
 def hello_api():
     return {"msg":"Hello world"}
+    
