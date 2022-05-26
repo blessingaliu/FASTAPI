@@ -3,5 +3,8 @@ uvicorn
 
 # To install libraries, type pip install -r requirements.txt in terminal
 
-#for template  #new
+#for template
 jinja2 
+
+#for static files
+aiofiles
