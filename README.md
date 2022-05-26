@@ -8,8 +8,8 @@ pip install virtualenv
 
 ## 3. Create the virtual environment 
 python3 -m venv virtualenv
-# virtualenv is the name of virtual env
-# OR 
+### virtualenv is the name of virtual env
+### OR 
 virtualenv name_of_environment 
 
 ## 4. To activate the virtual environment 
@@ -17,12 +17,12 @@ source name_of_environment/bin/activate
 
 ## 5. You can confirm you’re in the virtual environment by checking the location of your Python interpreter:
 which python
-## It should be in the env directory:
+### It should be in the env directory
 
 ## 6. To get out of virtual environment 
 deactivate
 
-
+<br/>
 
 # Installing dependencies 
 
